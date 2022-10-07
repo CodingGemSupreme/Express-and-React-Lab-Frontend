@@ -15,14 +15,16 @@ function Projects(props) {
   };
 
   
-  useEffect(() => getProjectsData(), []);
+  useEffect(() => {
+    getProjectsData();
+   });
 
   
   const loaded = () => {
     return projects.map((project) => (
       <div>
         <h1>{project.name}</h1>
-        <img src={project.image} />
+        <img src={project.image} alt="By Coding Gem Supreme"/>
         <a href={project.git}>
           <button>Github</button>
         </a>

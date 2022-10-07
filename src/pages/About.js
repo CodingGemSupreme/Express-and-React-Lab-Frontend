@@ -15,7 +15,8 @@ function About(props) {
   };
 
   // make an initial call for the data inside a useEffect
-  useEffect(() => getAboutData(), []);
+  useEffect(() => {getAboutData();
+   });
 
   // define a function that will return the JSX 
   const loaded = () => (
