@@ -14,7 +14,6 @@ code {
 }
 
 .HomePageContent img {
-  
   max-width: 100%;
   max-height: 40%;
 }
@@ -26,18 +25,9 @@ max-width: 20%;
 max-height: 20%;
 padding-top: 50px;
 }
-
-.AboutPageContent h1 {
-  
-   }
 .AboutPageContent p {
  margin: 20px 150px 10px 150px;
-
   }
-
-  
-  /* Body  */
-
   /*Header*/
   header {
     background-color: white;
@@ -56,7 +46,6 @@ padding-top: 50px;
   }
   header * {
     display: inline;
-    
 }
 .navStyle {
   display: flex;
