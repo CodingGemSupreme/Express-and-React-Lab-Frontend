@@ -22,7 +22,7 @@ function Projects(props) {
   
   const loaded = () => {
     return projects.map((project) => (
-      <div>
+      <div className="ProjectsMappedContent">
         <h1>{project.name}</h1>
         <img src={project.image} alt="By Coding Gem Supreme"/>
         <a href={project.git}>

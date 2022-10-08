@@ -5,9 +5,90 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.HomePageContent img {
+  
+  max-width: 100%;
+  max-height: 40%;
+}
+/* About Page Edits Starting With First Showing Element */
+.AboutPageContent img {
+margin-top: 50px;
+margin-bottom: -40px;
+max-width: 20%;
+max-height: 20%;
+padding-top: 50px;
+}
+
+.AboutPageContent h1 {
+  
+   }
+.AboutPageContent p {
+ margin: 20px 150px 10px 150px;
+
+  }
+
+  
+  /* Body  */
+
+  /*Header*/
+  header {
+    background-color: white;
+    position: fixed;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: flex;
+    box-shadow: 0 0 25px 0 black;
+  }
+  header img {
+    height: 65px;
+    margin-left: 52px;
+  }
+  header * {
+    display: inline;
+    
+}
+.navStyle {
+  display: flex;
+  justify-content: space-around;
+  border: ;
+  padding: 10px;
+  width: 100%;
+  margin: 20px;
+  
+}
+.navStyle link {
+  text-decoration: none;
+  color: black;
+}
+  /*Footer*/
+  .SiteFooter {
+    background-color: rgb(227, 124, 250);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+   margin-top: -5px;
+   margin-bottom: 10px;
+   height: 30px;
+   display: flex;
+   justify-content: space-around;
+   padding: 5px;
+   color: rgb(227, 124, 250);
+   text-decoration: none;
+  }
+  .FooterStyle1 {
+margin-top: -1px;
+  }
+
+  .ProjectsMappedContent {
+    padding-top: 100px;
+  }
